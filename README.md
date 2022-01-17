@@ -79,7 +79,6 @@ Name
 ##### 2. What is the total number of nations that have participated in each olympic games
 
 ![image](https://user-images.githubusercontent.com/57301554/149733792-e429865b-364d-41b6-a64a-cf459d8f08c6.png)
-
 ![image](https://user-images.githubusercontent.com/57301554/149734030-60e3a5ff-7702-40bf-9015-ba41f00bc12f.png)
 
 Listed a few but there are 51 such records
@@ -89,14 +88,15 @@ Listed a few but there are 51 such records
 I used a CTE and nested subqueries in this scenario.
 
 ![image](https://user-images.githubusercontent.com/57301554/149735191-aa13355e-1b3f-4947-a597-8fbfcd559b48.png)
-
 ![image](https://user-images.githubusercontent.com/57301554/149734928-abd5d213-4bdd-4b8d-9ba3-186fa519b69f.png)
 
 ##### 5. Which nation has participated in all of the olympic games?
 
-Here i used a series of CTEs to dig into data and then summarize the data as rquired inthe final outcome. I have added a description for each CTE to show what I expect out of it.
+Here i used a series of CTEs to dig into data and then summarize the data as rquired inthe final outcome. I added a description for each CTE to show what I expect out of it.
 
 ![image](https://user-images.githubusercontent.com/57301554/149737493-391d4a67-2840-44ce-8de3-14d37ca9c57e.png)
+![image](https://user-images.githubusercontent.com/57301554/149738218-878f1c8a-3156-4667-af8f-1d187cbaa4dc.png)
+
 
 
 
