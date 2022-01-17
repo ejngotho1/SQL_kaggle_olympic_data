@@ -65,6 +65,41 @@ Name
 10. Repeat the 9 steps for the second file (noc_regions.csv)
 
  ![image](https://user-images.githubusercontent.com/57301554/149729754-10b2e08a-4b84-4bdf-850a-4a904dad8dbe.png)
+ 
+ ## Lets start Analyzing our data
+ 
+ #### We will ask ourselves a number of questions which will inform our insights. The data covers the years 1896 to 2016. We will analyze data for summer and Winter Olympics. This way, we will be able to tell a story about the olympics since 1896. We will find out:
+ 
+ ##### 1. How many olympic games have been held since 1896 to 2016?
+ 
+![image](https://user-images.githubusercontent.com/57301554/149733296-63987e25-d429-4cce-8f84-ac60bdc107ee.png)
+
+![image](https://user-images.githubusercontent.com/57301554/149733714-d28a9eb0-eb80-44e3-b443-1e4fe3e88424.png)
+
+##### 2. What is the total number of nations that have participated in each olympic games
+
+![image](https://user-images.githubusercontent.com/57301554/149733792-e429865b-364d-41b6-a64a-cf459d8f08c6.png)
+
+![image](https://user-images.githubusercontent.com/57301554/149734030-60e3a5ff-7702-40bf-9015-ba41f00bc12f.png)
+
+Listed a few but there are 51 such records
+
+##### 4. Which year saw the highest and the lowest number of countries participating in Olympics?
+
+I used a CTE and nested subqueries in this scenario.
+
+![image](https://user-images.githubusercontent.com/57301554/149735191-aa13355e-1b3f-4947-a597-8fbfcd559b48.png)
+
+![image](https://user-images.githubusercontent.com/57301554/149734928-abd5d213-4bdd-4b8d-9ba3-186fa519b69f.png)
+
+##### 5. Which nation has participated in all of the olympic games?
+
+Here i used a series of CTEs to dig into data and then summarize the data as rquired inthe final outcome. I have added a description for each CTE to show what I expect out of it.
+
+![image](https://user-images.githubusercontent.com/57301554/149737493-391d4a67-2840-44ce-8de3-14d37ca9c57e.png)
+
+
+
 
 
 
