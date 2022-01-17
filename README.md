@@ -97,6 +97,28 @@ Here i used a series of CTEs to dig into data and then summarize the data as rqu
 ![image](https://user-images.githubusercontent.com/57301554/149737493-391d4a67-2840-44ce-8de3-14d37ca9c57e.png)
 ![image](https://user-images.githubusercontent.com/57301554/149738218-878f1c8a-3156-4667-af8f-1d187cbaa4dc.png)
 
+##### 6. Identify the sport which was played in all summer olympics.
+
+![image](https://user-images.githubusercontent.com/57301554/149818758-4afbd258-17c5-4177-8798-7367f92b9ed6.png)
+![image](https://user-images.githubusercontent.com/57301554/149818812-4c2b6ef9-cfad-464a-a4e6-59f0bf087a61.png)
+
+##### 10. Find the Ratio of male to female athletes participated in all olympic games.
+--need total male to total female
+
+--then divide male by female
+
+--tehn we will find ratio of women to men
+
+![image](https://user-images.githubusercontent.com/57301554/149819681-b82e7c0e-0ee6-4bb0-86ca-ed783399ebb6.png)
+![image](https://user-images.githubusercontent.com/57301554/149819740-4b099ba0-ce5b-4058-a723-262e18389e77.png)
+
+##### 11.  Fetch the top 5 athletes who have won the most gold medals.
+
+![image](https://user-images.githubusercontent.com/57301554/149820566-547ffaab-7a66-4489-a6ac-6753fad46556.png)
+![image](https://user-images.githubusercontent.com/57301554/149820630-3228b984-c62e-4224-ba7f-ce252a31ebfa.png)
+
+
+
 
 
 
