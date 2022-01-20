@@ -70,52 +70,74 @@ Name
  
  #### We will ask ourselves a number of questions which will inform our insights. The data covers the years 1896 to 2016. We will analyze data for summer and Winter Olympics. This way, we will be able to tell a story about the olympics since 1896. We will find out:
  
- ##### 1. How many olympic games have been held since 1896 to 2016?
+ #### 1. How many olympic games have been held since 1896 to 2016?
  
 ![image](https://user-images.githubusercontent.com/57301554/149733296-63987e25-d429-4cce-8f84-ac60bdc107ee.png)
 
 ![image](https://user-images.githubusercontent.com/57301554/149733714-d28a9eb0-eb80-44e3-b443-1e4fe3e88424.png)
 
-##### 2. What is the total number of nations that have participated in each olympic games
+#### 2. What is the total number of nations that have participated in each olympic games
 
 ![image](https://user-images.githubusercontent.com/57301554/149733792-e429865b-364d-41b6-a64a-cf459d8f08c6.png)
 ![image](https://user-images.githubusercontent.com/57301554/149734030-60e3a5ff-7702-40bf-9015-ba41f00bc12f.png)
 
 Listed a few but there are 51 such records
 
-##### 4. Which year saw the highest and the lowest number of countries participating in Olympics?
+#### 4. Which year saw the highest and the lowest number of countries participating in Olympics?
 
 I used a CTE and nested subqueries in this scenario.
 
 ![image](https://user-images.githubusercontent.com/57301554/149735191-aa13355e-1b3f-4947-a597-8fbfcd559b48.png)
 ![image](https://user-images.githubusercontent.com/57301554/149734928-abd5d213-4bdd-4b8d-9ba3-186fa519b69f.png)
 
-##### 5. Which nation has participated in all of the olympic games?
+#### 5. Which nation has participated in all of the olympic games?
 
 Here i used a series of CTEs to dig into data and then summarize the data as rquired inthe final outcome. I added a description for each CTE to show what I expect out of it.
 
 ![image](https://user-images.githubusercontent.com/57301554/149737493-391d4a67-2840-44ce-8de3-14d37ca9c57e.png)
 ![image](https://user-images.githubusercontent.com/57301554/149738218-878f1c8a-3156-4667-af8f-1d187cbaa4dc.png)
 
-##### 6. Identify the sport which was played in all summer olympics.
+#### 6. Identify the sport which was played in all summer olympics.
 
 ![image](https://user-images.githubusercontent.com/57301554/149818758-4afbd258-17c5-4177-8798-7367f92b9ed6.png)
 ![image](https://user-images.githubusercontent.com/57301554/149818812-4c2b6ef9-cfad-464a-a4e6-59f0bf087a61.png)
 
-##### 10. Find the Ratio of male to female athletes participated in all olympic games.
+#### 7. Find the Ratio of male to female athletes participated in all olympic games.
 --need total male to total female
 
 --then divide male by female
 
---tehn we will find ratio of women to men
+--then we will find ratio of male by female
 
 ![image](https://user-images.githubusercontent.com/57301554/149819681-b82e7c0e-0ee6-4bb0-86ca-ed783399ebb6.png)
 ![image](https://user-images.githubusercontent.com/57301554/149819740-4b099ba0-ce5b-4058-a723-262e18389e77.png)
-
-##### 11.  Fetch the top 5 athletes who have won the most gold medals.
+KPI
+#### 8.  Fetch the top 5 athletes who have won the most gold medals.
 
 ![image](https://user-images.githubusercontent.com/57301554/149820566-547ffaab-7a66-4489-a6ac-6753fad46556.png)
 ![image](https://user-images.githubusercontent.com/57301554/149820630-3228b984-c62e-4224-ba7f-ce252a31ebfa.png)
+
+#### 9.  Identify which country won the most gold, most silver and most bronze medals in each olympic games.
+--need country
+,need medals(gold,silver,bronze)
+,need games
+
+#### Solution using Subqueries
+
+![image](https://user-images.githubusercontent.com/57301554/150435928-eee81025-da74-4075-b7ca-f3ceaaa6dbe8.png)
+##### 5 top  subquery results
+![image](https://user-images.githubusercontent.com/57301554/150436011-908ff676-fe3c-48e3-aa4b-103ab600b303.png)
+##### 5 bottom subquery results
+![image](https://user-images.githubusercontent.com/57301554/150436245-6e8910a4-4007-41d2-95d9-209fd4d3cefc.png)
+
+#### Alternative solution using CTE
+![image](https://user-images.githubusercontent.com/57301554/150436827-e9c3ce21-5dc6-43da-b9b3-e402c10ce747.png)
+##### 5 top CTE results
+![image](https://user-images.githubusercontent.com/57301554/150436904-ae2158ed-afcc-468a-8031-d5cfbfba1096.png)
+##### 5 bottom CTE results
+![image](https://user-images.githubusercontent.com/57301554/150436960-5acd2721-5517-46c6-a1a2-4b6b1b7886f4.png)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
